@@ -57,6 +57,11 @@ Select text with `i|` and `a|`.
 
 ### [godlygeek/tabular](https://github.com/godlygeek/tabular)
 
+Aligns text. With text selected in visual mode do `Tab \P` for the pattern `P`. It will align text based on that pattern.
+
+- `<Leader>a=` aligns on the `=` sign.
+- `<Leader>a:` aligns on the `:` sign.
+
 ### [ryanoasis/vim-devicons](https://github.com/ryanoasis/vim-devicons)
 
 ## Themes
