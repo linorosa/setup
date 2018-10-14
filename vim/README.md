@@ -55,29 +55,26 @@ Select text with `i|` and `a|`.
 
 `<Leader>tdd` deletes a row and `<Leader>tdc` deletes a column.
 
+### [godlygeek/tabular](https://github.com/godlygeek/tabular)
+
+### [ryanoasis/vim-devicons](https://github.com/ryanoasis/vim-devicons)
+
 ## Themes
 
-### 'joshdick/onedark.vim'
-### 'jonathanfilip/vim-lucius'
-### 'rakr/vim-two-firewatch'
-### 'mhartington/oceanic-next'
-
-### 'morhetz/gruvbox'
-### 'jacoborus/tender.vim'
-### 'arcticicestudio/nord-vim'
-### 'keith/parsec.vim'
-### 'kristijanhusak/vim-hybrid-material'
-### 'chriskempson/base16'
-
-### 'KeitaNakamura/neodark.vim'
-### 'rakr/vim-one'
-### 'albertorestifo/github.vim'
-
-### 'andreypopp/vim-colors-plain'
-
-### 'godlygeek/tabular'
-
-### 'ryanoasis/vim-devicons'
+- [joshdick/onedark.vim](https://github.com/joshdick/onedark.vim)
+- [jonathanfilip/vim-lucius](https://github.com/jonathanfilip/vim-lucius)
+- [rakr/vim-two-firewatch](https://github.com/rakr/vim-two-firewatch)
+- [mhartington/oceanic-next](https://github.com/mhartington/oceanic-next)
+- [morhetz/gruvbox](https://github.com/morhetz/gruvbox)
+- [jacoborus/tender.vim](https://github.com/jacoborus/tender.vim)
+- [arcticicestudio/nord-vim](arcticicestudio/nord-vim)
+- [keith/parsec.vim](https://github.com/keith/parsec.vim)
+- [kristijanhusak/vim-hybrid-material](https://github.com/kristijanhusak/vim-hybrid-material)
+- [chriskempson/base16](https://github.com/chriskempson/base16)
+- [KeitaNakamura/neodark.vim](https://github.com/KeitaNakamura/neodark.vim)
+- [rakr/vim-one](https://github.com/rakr/vim-one)
+- [albertorestifo/github.vim](https://github.com/albertorestifo/github.vim)
+- [andreypopp/vim-colors-plain](https://github.com/andreypopp/vim-colors-plain)
 
 
 
