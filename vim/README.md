@@ -10,20 +10,11 @@
 - `:PluginList` displays list of installed plugins
 - `:PluginClean` removes plugins no longer on .vimrc
 
-### [yegappan/mru](https://github.com/yegappan/mru/wiki/User-Manual)
+### [scrooloose/nerdtree](https://github.com/scrooloose/nerdtree)
 
-The Most Recently Used (MRU) plugin provides an easy access to a list of recently opened/edited files in Vim. This plugin automatically stores the file names as you open/edit them in Vim.
+- `<leader>nn` triggers `:NERDTreeToggle`, which toggles NERDtree
+- `<leader>nb` triggers `:NERDTreeFromBookmark`, waiting for the name of the bookmark to open
 
-Aliased to `<leader>f`.
-
-- `q` closes the window
-- `o` opens selected file on a new window
-- `t` opens selected file on a new tab
-- `v` opens selected file on view-only mode
-- `<space> filename` searches for `filename` on the MRU window
-
-### 'ctrlpvim/ctrlp.vim'
-### 'scrooloose/nerdtree'
 ### 'gerw/vim-HiLinkTrace'
 ### 'tpope/vim-surround'
 ### 'majutsushi/tagbar'
