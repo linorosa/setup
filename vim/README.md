@@ -15,8 +15,14 @@
 - `<leader>nn` triggers `:NERDTreeToggle`, which toggles NERDtree
 - `<leader>nb` triggers `:NERDTreeFromBookmark`, waiting for the name of the bookmark to open
 
-### 'gerw/vim-HiLinkTrace'
-### 'tpope/vim-surround'
+### [tpope/vim-surround](https://github.com/tpope/vim-surround)
+
+- `ds[S]` deletes the surround target `[S]`
+- `cs[X][Y]` changes the surround target `[X]` to `[Y]`
+- `ys[O][X]` surrounds the motion `[O]` with the surround `[X]`
+- `yss[X]` operates on the current line
+- `yS` and `ySS` indent surrounded text and place it on a line of its own
+
 ### 'majutsushi/tagbar'
 ### 'itchyny/lightline.vim'
 ### 'junegunn/goyo.vim'
