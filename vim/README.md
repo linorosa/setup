@@ -33,8 +33,14 @@ I use this mostly to navigate wiki and markdown files.
 
 - `<leader>t` opens the tagbar window on the right side.
 
-### 'itchyny/lightline.vim'
-### 'junegunn/goyo.vim'
+### [itchyny/lightline.vim](https://github.com/itchyny/lightline.vim)
+
+Just a nice status bar.
+
+### [junegunn/goyo.vim](https://github.com/junegunn/goyo.vim)
+
+Distraction-free writing. Aliased to `<leader>z`
+
 ### 'vimwiki/vimwiki'
 ### 'dhruvasagar/vim-table-mode'
 ### 'derekwyatt/vim-scala'
