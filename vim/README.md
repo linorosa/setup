@@ -41,7 +41,10 @@ Just a nice status bar.
 
 Distraction-free writing. Aliased to `<leader>z`
 
-### 'vimwiki/vimwiki'
+### [vimwiki/vimwiki](https://github.com/vimwiki/vimwiki)
+
+I'm mostly using it for the syntax, but it could be much more powerful than that...
+
 ### 'dhruvasagar/vim-table-mode'
 ### 'derekwyatt/vim-scala'
 ### 'pangloss/vim-javascript'
