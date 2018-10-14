@@ -45,7 +45,16 @@ Distraction-free writing. Aliased to `<leader>z`
 
 I'm mostly using it for the syntax, but it could be much more powerful than that...
 
-### 'dhruvasagar/vim-table-mode'
+### [dhruvasagar/vim-table-mode](https://github.com/dhruvasagar/vim-table-mode)
+
+`<leader>tm` toggles table mode.
+
+Select some comma-separared lines and do `<leader>tt` to transform it into a table.
+
+Select text with `i|` and `a|`. 
+
+`<Leader>tdd` deletes a row and `<Leader>tdc` deletes a column.
+
 ### 'derekwyatt/vim-scala'
 ### 'pangloss/vim-javascript'
 
