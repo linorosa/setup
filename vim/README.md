@@ -2,7 +2,14 @@
 
 ## Plugins
 
-### 'VundleVim/Vundle.vim'
+### [VundleVim/Vundle.vim](https://github.com/VundleVim/Vundle.vim)
+
+- `:PluginSearch name` searches for a plugin with `name`
+- `:PluginInstall` installs all plugins from .vimrc
+- `:PluginUpdate` updates all plugins from .vimrc
+- `:PluginList` displays list of installed plugins
+- `:PluginClean` removes plugins no longer on .vimrc
+
 ### 'yegappan/mru'
 ### 'ctrlpvim/ctrlp.vim'
 ### 'scrooloose/nerdtree'
