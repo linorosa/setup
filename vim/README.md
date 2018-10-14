@@ -36,8 +36,6 @@ I use this mostly to navigate wiki and markdown files.
 ### 'itchyny/lightline.vim'
 ### 'junegunn/goyo.vim'
 ### 'vimwiki/vimwiki'
-### 'mustache/vim-mustache-handlebars'
-### 'fabi1cazenave/cua-mode.vim'
 ### 'dhruvasagar/vim-table-mode'
 ### 'derekwyatt/vim-scala'
 ### 'pangloss/vim-javascript'
