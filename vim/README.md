@@ -55,9 +55,6 @@ Select text with `i|` and `a|`.
 
 `<Leader>tdd` deletes a row and `<Leader>tdc` deletes a column.
 
-### 'derekwyatt/vim-scala'
-### 'pangloss/vim-javascript'
-
 ## Themes
 
 ### 'joshdick/onedark.vim'
