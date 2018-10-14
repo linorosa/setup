@@ -27,7 +27,12 @@ Surround targets are `(`, `)`, `{`, `}`, `[`, `]`, `<`, and `>`, `'`, `"`, ```.
 
 When using `(`, `{` and `[`, an additional space is appended on the inside.
 
-### 'majutsushi/tagbar'
+### [majutsushi/tagbar](https://github.com/majutsushi/tagbar)
+
+I use this mostly to navigate wiki and markdown files.
+
+- `<leader>t` opens the tagbar window on the right side.
+
 ### 'itchyny/lightline.vim'
 ### 'junegunn/goyo.vim'
 ### 'vimwiki/vimwiki'
