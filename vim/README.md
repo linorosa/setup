@@ -59,9 +59,6 @@ Select text with `i|` and `a|`.
 
 Aligns text. With text selected in visual mode do `Tab \P` for the pattern `P`. It will align text based on that pattern.
 
-- `<Leader>a=` aligns on the `=` sign.
-- `<Leader>a:` aligns on the `:` sign.
-
 ### [ryanoasis/vim-devicons](https://github.com/ryanoasis/vim-devicons)
 
 Adds file type glyphs/icons to popular Vim plugins: NERDTree, vim-airline, Powerline, Unite, vim-startify and more.
