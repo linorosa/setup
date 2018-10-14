@@ -64,6 +64,8 @@ Aligns text. With text selected in visual mode do `Tab \P` for the pattern `P`. 
 
 ### [ryanoasis/vim-devicons](https://github.com/ryanoasis/vim-devicons)
 
+Adds file type glyphs/icons to popular Vim plugins: NERDTree, vim-airline, Powerline, Unite, vim-startify and more.
+
 ## Themes
 
 - [joshdick/onedark.vim](https://github.com/joshdick/onedark.vim)
