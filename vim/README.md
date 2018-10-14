@@ -10,7 +10,18 @@
 - `:PluginList` displays list of installed plugins
 - `:PluginClean` removes plugins no longer on .vimrc
 
-### 'yegappan/mru'
+### [yegappan/mru](https://github.com/yegappan/mru/wiki/User-Manual)
+
+The Most Recently Used (MRU) plugin provides an easy access to a list of recently opened/edited files in Vim. This plugin automatically stores the file names as you open/edit them in Vim.
+
+Aliased to `<leader>f`.
+
+- `q` closes the window
+- `o` opens selected file on a new window
+- `t` opens selected file on a new tab
+- `v` opens selected file on view-only mode
+- `<space> filename` searches for `filename` on the MRU window
+
 ### 'ctrlpvim/ctrlp.vim'
 ### 'scrooloose/nerdtree'
 ### 'gerw/vim-HiLinkTrace'
