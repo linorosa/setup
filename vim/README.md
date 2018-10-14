@@ -43,7 +43,7 @@ Distraction-free writing. Aliased to `<leader>z`
 
 ### [vimwiki/vimwiki](https://github.com/vimwiki/vimwiki)
 
-I'm mostly using it for the syntax, but it could be much more powerful than that...
+`<Leader>ww` goes to the indexwiki in ~/vimwiki/index.wiki.
 
 ### [dhruvasagar/vim-table-mode](https://github.com/dhruvasagar/vim-table-mode)
 
