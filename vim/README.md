@@ -41,10 +41,6 @@ Just a nice status bar.
 
 Distraction-free writing. Aliased to `<leader>z`
 
-### [vimwiki/vimwiki](https://github.com/vimwiki/vimwiki)
-
-`<Leader>ww` goes to the indexwiki in ~/vimwiki/index.wiki.
-
 ### [dhruvasagar/vim-table-mode](https://github.com/dhruvasagar/vim-table-mode)
 
 `<leader>tm` toggles table mode.
