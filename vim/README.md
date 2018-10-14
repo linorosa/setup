@@ -23,6 +23,10 @@
 - `yss[X]` operates on the current line
 - `yS` and `ySS` indent surrounded text and place it on a line of its own
 
+Surround targets are `(`, `)`, `{`, `}`, `[`, `]`, `<`, and `>`, `'`, `"`, ```.
+
+When using `(`, `{` and `[`, an additional space is appended on the inside.
+
 ### 'majutsushi/tagbar'
 ### 'itchyny/lightline.vim'
 ### 'junegunn/goyo.vim'
