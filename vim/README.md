@@ -51,10 +51,6 @@ Select text with `i|` and `a|`.
 
 `<Leader>tdd` deletes a row and `<Leader>tdc` deletes a column.
 
-### [godlygeek/tabular](https://github.com/godlygeek/tabular)
-
-Aligns text. With text selected in visual mode do `Tab \P` for the pattern `P`. It will align text based on that pattern.
-
 ### [ryanoasis/vim-devicons](https://github.com/ryanoasis/vim-devicons)
 
 Adds file type glyphs/icons to popular Vim plugins: NERDTree, vim-airline, Powerline, Unite, vim-startify and more.
