@@ -1,0 +1,9 @@
+# Scales my screen to a bearable size
+Xft.dpi: 172
+
+Xft.autohint: false
+Xft.lcdfilter:  lcddefault
+Xft.hintstyle:  hintfull
+Xft.hinting: true
+Xft.antialias: true
+Xft.rgba: rgb
