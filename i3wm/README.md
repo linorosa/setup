@@ -25,7 +25,7 @@ Save [gdkscale.sh](gdkscale.sh) to `/etc/profile.d/gdkscale.sh`. It scales GDK a
 
 ## Media keys
 
-These are configured here, using `pactl` (which come with Ubuntu) and `playerctl` which has to be installed manually:
+They're configured under i3's config file but rely on `pactl` (which come with Ubuntu) and `playerctl` which has to be installed manually:
 
 - Download the latest debian package on the releases [here](https://github.com/acrisci/playerctl/releases)
 - Run `sudo dpkg -i <package-name>`
