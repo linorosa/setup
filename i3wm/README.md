@@ -1,7 +1,5 @@
 # i3 Window Manager
 
-[Official Website](https://i3wm.org/)
-
 ## Installation
 
 Installation is simple:
@@ -19,3 +17,8 @@ Save [.Xresources](.Xresources) to `~/.Xresources`. This will be loaded by the X
 ## gdkscale
 
 Save [gdkscale.sh](gdkscale.sh) to `/etc/profile.d/gdkscale.sh`. It scales GDK applications on my 4k display.
+
+## Notable Links
+
+- The [official website](https://i3wm.org/docs/userguide.html)
+- Lots of inspiration from this series of videos: [1](https://www.youtube.com/watch?v=j1I63wGcvU4)/[2](https://www.youtube.com/watch?v=8-S0cWnLBKg)/[3](https://www.youtube.com/watch?v=ARKIwOlazKI)
