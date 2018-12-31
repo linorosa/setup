@@ -29,3 +29,7 @@ They're configured under i3's config file but rely on `pactl` (which come with U
 
 - Download the latest debian package on the releases [here](https://github.com/acrisci/playerctl/releases)
 - Run `sudo dpkg -i <package-name>`
+
+## Default programs
+
+- Spotify: `sudo snap install spotify`
