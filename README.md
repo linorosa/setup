@@ -52,7 +52,7 @@ phockup ~/Pictures /media/bigdisk/photos -m -d YYYY/m/DD
 I have a cron job that rsyncs that folder to my Synology NAS:
 
 ```bash
-0 17 * * * rsync -azbP --backup-dir=old_`date +%F` --delete --exclude=old_* /media/bigdisk/photos/ /media/synbackup/photos/
+0 * * * * rsync -azbP --backup-dir=old_`date +%F` --delete --exclude=old_* /media/bigdisk/photos/ /media/synbackup/photos/
 ```
 
 The NAS has a Hyper Backup setup into an Amazon Drive. It also synchonizes photos to Google Drive so I have them available on Google Photos.
