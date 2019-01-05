@@ -5,6 +5,10 @@ My computer setup
 
 Take a look at [this guy's recommendations](https://lukesmith.xyz/programs.html) and [suckless.org](https://suckless.org/rocks/)
 
+### File Manager
+
+I user [Ranger](https://github.com/ranger/ranger)
+
 ### Image Viewer
 
 I use the [Simple X Image Viewer](https://github.com/muennich/sxiv)
