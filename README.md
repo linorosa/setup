@@ -13,6 +13,10 @@ I user [Ranger](https://github.com/ranger/ranger)
 
 I use the [Simple X Image Viewer](https://github.com/muennich/sxiv)
 
+### Videos
+
+Using mpv.
+
 ### i3 Window Manager
 
 Installation is simple:
