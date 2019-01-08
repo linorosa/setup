@@ -311,11 +311,11 @@ set background=dark
 
 set cursorline
 try
-    colorscheme onedark
+    " colorscheme onedark
     " colorscheme lucious
     " colorscheme two-firewatch
     " colorscheme OceanicNext
-    " colorscheme gruvbox
+    colorscheme gruvbox
     " colorscheme tender
     " colorscheme nord
     " colorscheme parsec
@@ -349,7 +349,7 @@ set ffs=unix,dos,mac
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Turn backup off, since most stuff is in SVN, git et.c anyway...
 set nobackup
-set nowb
+set nowritebackup
 set noswapfile
 
 
