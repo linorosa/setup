@@ -1,10 +1,10 @@
-<scheme name="Gruvbox-Lino" version="142" parent_scheme="Default">
+<scheme name="GruvboxMinimal" version="142" parent_scheme="Default">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2019-01-08T16:37:32</property>
+    <property name="created">2019-01-09T14:13:39</property>
     <property name="ide">Idea</property>
     <property name="ideVersion">2018.3.2.0.0</property>
-    <property name="modified">2019-01-08T16:37:44</property>
+    <property name="modified">2019-01-09T14:13:52</property>
     <property name="originalScheme">Gruvbox-Lino</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
@@ -50,8 +50,8 @@
     <option name="RIGHT_MARGIN_COLOR" value="32302f" />
     <option name="SELECTED_INDENT_GUIDE" value="f8e1aa" />
     <option name="SELECTED_TEARLINE_COLOR" value="8ec07c" />
-    <option name="SELECTION_BACKGROUND" value="665c54" />
-    <option name="SELECTION_FOREGROUND" value="" />
+    <option name="SELECTION_BACKGROUND" value="d5c4a1" />
+    <option name="SELECTION_FOREGROUND" value="282828" />
     <option name="TEARLINE_COLOR" value="665c54" />
     <option name="WHITESPACES" value="505050" />
   </colors>
@@ -880,7 +880,7 @@
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="EFFECT_COLOR" value="fbf1c7" />
+        <option name="EFFECT_COLOR" value="fabd2f" />
       </value>
     </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">
@@ -928,7 +928,7 @@
     <option name="WRITE_SEARCH_RESULT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="ebdbb2" />
-        <option name="EFFECT_COLOR" value="fbf1c7" />
+        <option name="EFFECT_COLOR" value="ebdbb2" />
       </value>
     </option>
     <option name="WRONG_REFERENCES_ATTRIBUTES">
