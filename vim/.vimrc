@@ -311,20 +311,7 @@ set background=dark
 
 set cursorline
 try
-    " colorscheme onedark
-    " colorscheme lucious
-    " colorscheme two-firewatch
-    " colorscheme OceanicNext
     colorscheme gruvbox
-    " colorscheme tender
-    " colorscheme nord
-    " colorscheme parsec
-    " colorscheme hybrid_material
-    " colorscheme neodark
-    " colorscheme one
-    " colorscheme one-dark
-    " colorscheme github
-    " colorscheme plain
 
 catch
 endtry
