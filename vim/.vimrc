@@ -307,7 +307,8 @@ set lsp=2
 syntax on
 syntax enable 
 
-set background=dark
+set termguicolors
+set background=light
 
 set cursorline
 try
