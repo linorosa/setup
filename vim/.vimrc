@@ -308,7 +308,7 @@ syntax on
 syntax enable 
 
 set termguicolors
-set background=light
+set background=dark
 
 set cursorline
 try
@@ -361,8 +361,6 @@ set tw=500
 set ai "Auto indent
 set si "Smart indent
 set wrap "Wrap lines
-
-set textwidth=80
 
 
 """"""""""""""""""""""""""""""
