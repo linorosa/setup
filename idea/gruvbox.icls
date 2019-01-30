@@ -1,15 +1,15 @@
-<scheme name="GruvboxMinimal" version="142" parent_scheme="Default">
+<scheme name="Gruvbox" version="142" parent_scheme="Default">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2019-01-21T12:01:19</property>
+    <property name="created">2019-01-29T19:49:38</property>
     <property name="ide">Idea</property>
     <property name="ideVersion">2018.3.3.0.0</property>
-    <property name="modified">2019-01-21T12:01:25</property>
-    <property name="originalScheme">GruvboxMinimal</property>
+    <property name="modified">2019-01-29T19:50:06</property>
+    <property name="originalScheme">Gruvbox</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
-  <option name="EDITOR_FONT_SIZE" value="16" />
-  <option name="EDITOR_FONT_NAME" value="Source Code Pro" />
+  <option name="EDITOR_FONT_SIZE" value="18" />
+  <option name="EDITOR_FONT_NAME" value="Inconsolata" />
   <console-font>
     <option name="EDITOR_FONT_NAME" value="Hack" />
     <option name="EDITOR_FONT_SIZE" value="15" />
@@ -22,7 +22,7 @@
     <option name="ADDED_LINES_COLOR" value="79740e" />
     <option name="ANNOTATIONS_COLOR" value="928374" />
     <option name="CARET_COLOR" value="d5c4a1" />
-    <option name="CARET_ROW_COLOR" value="" />
+    <option name="CARET_ROW_COLOR" value="3c3836" />
     <option name="CONSOLE_BACKGROUND_KEY" value="282828" />
     <option name="FILESTATUS_ADDED" value="629755" />
     <option name="FILESTATUS_DELETED" value="6c6c6c" />
@@ -41,8 +41,8 @@
     <option name="FILESTATUS_modifiedOutside" value="6897bb" />
     <option name="GUTTER_BACKGROUND" value="282828" />
     <option name="INDENT_GUIDE" value="665c54" />
-    <option name="LINE_NUMBERS_COLOR" value="928374" />
-    <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="fabd2f" />
+    <option name="LINE_NUMBERS_COLOR" value="665c54" />
+    <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="d79921" />
     <option name="METHOD_SEPARATORS_COLOR" value="2a2a2a" />
     <option name="MODIFIED_LINES_COLOR" value="415f69" />
     <option name="NOTIFICATION_BACKGROUND" value="" />
@@ -50,7 +50,7 @@
     <option name="RIGHT_MARGIN_COLOR" value="32302f" />
     <option name="SELECTED_INDENT_GUIDE" value="f8e1aa" />
     <option name="SELECTED_TEARLINE_COLOR" value="8ec07c" />
-    <option name="SELECTION_BACKGROUND" value="fabd2f" />
+    <option name="SELECTION_BACKGROUND" value="ebdbb2" />
     <option name="SELECTION_FOREGROUND" value="282828" />
     <option name="TEARLINE_COLOR" value="665c54" />
     <option name="WHITESPACES" value="505050" />
@@ -288,7 +288,9 @@
       </value>
     </option>
     <option name="DEFAULT_BRACES">
-      <value />
+      <value>
+        <option name="FOREGROUND" value="8ec07c" />
+      </value>
     </option>
     <option name="DEFAULT_BRACKETS">
       <value />
@@ -331,7 +333,11 @@
         <option name="FOREGROUND" value="d79921" />
       </value>
     </option>
-    <option name="DEFAULT_IDENTIFIER" baseAttributes="TEXT" />
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="d5c4a1" />
+      </value>
+    </option>
     <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
       <value>
@@ -854,7 +860,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="d5c4a1" />
-        <option name="BACKGROUND" value="272727" />
+        <option name="BACKGROUND" value="282828" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
@@ -864,7 +870,7 @@
     </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="83a598" />
+        <option name="FOREGROUND" value="928374" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
