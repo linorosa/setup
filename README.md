@@ -59,7 +59,7 @@ The photos app is just a convenient way to periodically import photos from camer
 After importing I make sure to delete the ones I don't want and I run phockup to organize them into a folder structure:
 
 ```bash
-phockup ~/Pictures /media/bigdisk/photos -m -d YYYY/MM-M
+phockup ~/Pictures /media/bigdisk/photos --timestamp -m -d YYYY/MM-M
 ```
 I have a cron job that rsyncs that folder to my Synology NAS:
 
