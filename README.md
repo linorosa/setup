@@ -61,6 +61,14 @@ After importing I make sure to delete the ones I don't want and I run phockup to
 ```bash
 phockup ~/Pictures /media/bigdisk/photos --timestamp -m -d YYYY/MM-M
 ```
+
+I mount the synology drive by adding this line to `/etc/fstab`:
+
+```bash
+# Synology NAS
+192.168.0.100:/volume1/backups /media/synbackup nfs rsize=8192,wsize=8192,timeo=14,intr
+```
+
 I have a cron job that rsyncs that folder to my Synology NAS:
 
 ```bash
