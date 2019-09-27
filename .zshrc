@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/linorosa/.oh-my-zsh"
+export ZSH="/home/lino/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -98,6 +98,7 @@ source $ZSH/oh-my-zsh.sh
 #
 alias gs="git status -s"
 alias gd="git diff"
+alias gdd="git diff --cached"
 alias gl="glola" # from the git plugin
 alias go="git checkout"
 
