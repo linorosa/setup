@@ -1,54 +1,35 @@
 # Setup
 My computer setup
 
-## Software
+## ZSH
 
-Take a look at [this guy's recommendations](https://lukesmith.xyz/programs.html) and [suckless.org](https://suckless.org/rocks/)
+Install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh).
 
-### File Manager
+Install the [powerlevel10k](https://github.com/romkatv/powerlevel10k) theme. Remember to install the fonts.
 
-I user [Ranger](https://github.com/ranger/ranger)
+Use the `.zshrc` from this repository.
 
-### Image Viewer
+## Git
 
-I use the [Simple X Image Viewer](https://github.com/muennich/sxiv)
+Install [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy) for better diffs.
 
-### Videos
+An alternative for `diff-so-fancy` is `diff-highlight` which comes bundled with git, but `diff-so-fancy` looks nicer.
 
-Using mpv.
+Use the `.gitconfig` from this repository.
 
-### i3 Window Manager
+## Vim
 
-Installation is simple:
+Install [vim-plug](https://github.com/junegunn/vim-plug).
 
-```bash
-sudo apt install i3
-```
-
-Select **i3** when logging in instead of regular Gnome/KDE. The first time it will prompt me to create a config file under `~/.config/i3/config`.
-
-#### gdkscale
-
-Save [gdkscale.sh](gdkscale.sh) to `/etc/profile.d/gdkscale.sh`. It scales GDK applications on my 4k display.
-
-#### Links
-
-- The [official website](https://i3wm.org/docs/userguide.html)
-- Lots of inspiration from this series of videos: [1](https://www.youtube.com/watch?v=j1I63wGcvU4)/[2](https://www.youtube.com/watch?v=8-S0cWnLBKg)/[3](https://www.youtube.com/watch?v=ARKIwOlazKI)
-- [This one](https://www.youtube.com/watch?v=GKviflL9XeI) is also great.
-
-#### Media keys
-
-They're configured under i3's config file but rely on `pactl` (which come with Ubuntu) and `playerctl` which has to be installed manually:
-
-- Download the latest debian package on the releases [here](https://github.com/acrisci/playerctl/releases)
-- Run `sudo dpkg -i <package-name>`
+User the `.vimrc` from this repository.
 
 #### Default programs
 
 - Spotify: `sudo snap install spotify`
 
 ## Photo management
+
+**TODO: I need to revisit this**
 
 I use a combination of apps, because no single app does exactly what I want.
 
