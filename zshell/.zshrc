@@ -70,7 +70,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git colored-man-pages colorize)
+plugins=(git colored-man-pages colorize forgit)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -97,7 +97,6 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 alias gs="git status -s"
-alias gd="git diff"
 alias gdd="git diff --cached"
 alias gl="glola" # from the git plugin
 alias go="git checkout"
@@ -105,4 +104,10 @@ alias go="git checkout"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ -f ~/.p10k.zsh ]] && source ~/.p10k.zsh
 
+# fzf plugin
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+
+
+

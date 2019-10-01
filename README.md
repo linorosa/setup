@@ -7,6 +7,10 @@ Install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh).
 
 Install the [powerlevel10k](https://github.com/romkatv/powerlevel10k) theme. Remember to install the fonts.
 
+Install [fzf](https://github.com/junegunn/fzf).
+
+Install [forgit](https://github.com/wfxr/forgit) under `$ZSH/custom/plugins`.
+
 Use the `.zshrc` from this repository.
 
 ## Git

@@ -61,7 +61,13 @@ call plug#begin('~/.vim/plugged')
 Plug 'kien/ctrlp.vim'
 let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard'] " ignore files in .gitignore
 
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
+
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+Plug 'liuchengxu/vista.vim'
+let g:vista_default_executive = 'coc'
 
 autocmd FileType json syntax match Comment +\/\/.\+$+
 
