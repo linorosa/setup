@@ -1,7 +1,10 @@
 # Setup
-My computer setup
 
-## ZSH
+Dotfiles and some setup instructions.
+
+Some useful links [here](./links.md)
+
+### ZSH
 
 Install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh).
 
@@ -13,7 +16,7 @@ Install [forgit](https://github.com/wfxr/forgit) under `$ZSH/custom/plugins`.
 
 Use the `.zshrc` from this repository.
 
-## Git
+### Git
 
 Install [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy) for better diffs.
 
@@ -21,23 +24,13 @@ An alternative for `diff-so-fancy` is `diff-highlight` which comes bundled with 
 
 Use the `.gitconfig` from this repository.
 
-## Vim
+### Vim
 
 Install [vim-plug](https://github.com/junegunn/vim-plug).
 
 User the `.vimrc` from this repository.
 
-## Scala
-
-Follow the instructions on the [official documentation](https://docs.scala-lang.org/getting-started/sbt-track/getting-started-with-scala-and-sbt-on-the-command-line.html).
-
-Install `coc.vim` and `metals` following the [official documentation](https://scalameta.org/metals/docs/editors/vim.html). Use the `coc-settings` from this repository:
-
-```bash
-ln -s ~/setup/vim/.coc-settings.json ~/.vim/coc-settings.json
-```
-
-### Themes
+#### Themes
 
 Try these themes:
 
@@ -55,6 +48,16 @@ Try these themes:
 - [rakr/vim-one](https://github.com/rakr/vim-one)
 - [albertorestifo/github.vim](https://github.com/albertorestifo/github.vim)
 - [andreypopp/vim-colors-plain](https://github.com/andreypopp/vim-colors-plain)
+
+### Scala
+
+Follow the instructions on the [official documentation](https://docs.scala-lang.org/getting-started/sbt-track/getting-started-with-scala-and-sbt-on-the-command-line.html).
+
+Install `coc.vim` and `metals` following the [official documentation](https://scalameta.org/metals/docs/editors/vim.html). Use the `coc-settings` from this repository:
+
+```bash
+ln -s ~/setup/vim/.coc-settings.json ~/.vim/coc-settings.json
+```
 
 #### Default programs
 
