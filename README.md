@@ -12,8 +12,6 @@ Install the [powerlevel10k](https://github.com/romkatv/powerlevel10k) theme. Rem
 
 Install [fzf](https://github.com/junegunn/fzf).
 
-Install [forgit](https://github.com/wfxr/forgit) under `$ZSH/custom/plugins`.
-
 Use the `.zshrc` from this repository.
 
 ### Git

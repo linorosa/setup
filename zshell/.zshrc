@@ -70,7 +70,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git colored-man-pages colorize forgit)
+plugins=(git colored-man-pages colorize)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -97,6 +97,7 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 alias gs="git status -s"
+alias gd="git diff"
 alias gdd="git diff --cached"
 alias gl="glola" # from the git plugin
 alias go="git checkout"
