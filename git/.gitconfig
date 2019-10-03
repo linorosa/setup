@@ -5,6 +5,7 @@
 	log = diff-so-fancy | less --tabs=4 -RFX
 	show = diff-so-fancy | less --tabs=4 -RFX
 	diff = diff-so-fancy | less --tabs=4 -RFX
+	branch = false
 [color]
 	ui = true
 [color "diff-highlight"]
