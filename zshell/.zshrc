@@ -97,7 +97,6 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 alias gs="git status -s"
-alias gd="git diff"
 alias gdd="git diff --cached"
 alias gl="glola" # from the git plugin
 alias go="git checkout"
