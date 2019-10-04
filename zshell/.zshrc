@@ -101,19 +101,13 @@ alias gdd="git diff --cached"
 alias gl="glola" # from the git plugin
 alias go="git checkout"
 
-
-# Sets up git completion for a branch
-# do `git checkout <Ctrl>b` and it will use fzf to find the branch
-function _list_branches {
-    local branches branch git_opts
-    git_opts="%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset"
-    branches=$(git for-each-ref --count=30 --sort=-committerdate refs/heads/ --format="%(refname:short)") &&
-    branch=$(echo "$branches" | fzf --color -d $(( 2 + $(wc -l <<< "$branches") )) --preview-window=right:70% --preview "git log --color=always --oneline --decorate --pretty='$git_opts' '{}'") &&
-    printf "$branch"
+# Checkout branch
+ggo() {
+  local branches branch
+  branches=$(git --no-pager branch -vv --sort=-committerdate) &&
+  branch=$(echo "$branches" | fzf +m) &&
+  git checkout $(echo "$branch" | awk '{print $1}' | sed "s/.* //")
 }
-zle -N _list_branches
-bindkey "^b" _list_branches  
-
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ -f ~/.p10k.zsh ]] && source ~/.p10k.zsh
