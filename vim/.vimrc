@@ -2,6 +2,8 @@
 "         Basic            "
 """"""""""""""""""""""""""""
 
+let mapleader = ","
+
 " You want Vim, not vi. When Vim finds a vimrc, 'nocompatible' is set anyway.
 " We set it explicitely to make our position clear!
 set nocompatible
@@ -29,6 +31,9 @@ set smartcase              " Search is case-sensitive if there's an uppercase ch
 set incsearch              " Highlight while searching with / or ?.
 set hlsearch               " Keep matches highlighted.
 
+" Clear search
+nnoremap <leader><cr> :noh<cr>
+
 set ttyfast                " Faster redrawing.
 set lazyredraw             " Only redraw when necessary.
 
@@ -38,8 +43,6 @@ set splitright             " Open new windows right of the current window.
 set wrapscan               " Searches wrap around end-of-file.
 set report      =0         " Always report changed lines.
 set synmaxcol   =200       " Only highlight the first 200 columns.
-
-let mapleader = ","
 
 """"""""""""""""""""""""""""
 "      File Explorer       "
