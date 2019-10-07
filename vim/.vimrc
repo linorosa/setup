@@ -69,6 +69,8 @@ Plug 'junegunn/fzf.vim'
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
+Plug 'junegunn/goyo.vim'
+
 Plug 'liuchengxu/vista.vim'
 let g:vista_default_executive = 'coc'
 
@@ -145,6 +147,10 @@ nnoremap <silent> <space>p  :<C-u>CocListResume<CR>
 
 Plug 'derekwyatt/vim-scala'
 au BufRead,BufNewFile *.sbt set filetype=scala
+
+Plug 'airblade/vim-gitgutter'
+Plug 'vim-airline/vim-airline'
+Plug 'justinmk/vim-sneak'
 
 " Initialize plugin system
 call plug#end()
