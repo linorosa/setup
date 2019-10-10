@@ -52,6 +52,11 @@ let g:netrw_banner = 0
 let g:netrw_liststyle = 3
 let g:netrw_altv = 1
 
+" set vim to chdir for each file
+" so that when I change files and do :Explorer, I open it on the directory of
+" the current file
+set autochdir
+
 """"""""""""""""""""""""""""
 "        Plugins           "
 """"""""""""""""""""""""""""
