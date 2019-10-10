@@ -101,6 +101,10 @@ alias gdd="git diff --cached"
 alias gl="glola" # from the git plugin
 alias go="git checkout"
 
+export FZF_DEFAULT_COMMAND='fd --type file --follow --hidden --exclude .git'
+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+
+
 # Checkout branch
 ggo() {
   local branches branch
