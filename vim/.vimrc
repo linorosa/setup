@@ -8,6 +8,7 @@ let mapleader = ","
 " We set it explicitely to make our position clear!
 set nocompatible
 
+set termguicolors
 filetype plugin indent on  " Load plugins according to detected filetype.
 syntax on                  " Enable syntax highlighting.
 
@@ -65,6 +66,9 @@ set autochdir
 " - For Neovim: ~/.local/share/nvim/plugged
 " - Avoid using standard Vim directory names like 'plugin'
 call plug#begin('~/.vim/plugged')
+
+" Themes
+Plug 'rakr/vim-one'
 
 Plug 'kien/ctrlp.vim'
 let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard'] " ignore files in .gitignore
@@ -159,3 +163,8 @@ Plug 'justinmk/vim-sneak'
 
 " Initialize plugin system
 call plug#end()
+
+let g:airline_theme='one'
+colo one
+
+
