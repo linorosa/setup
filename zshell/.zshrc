@@ -98,7 +98,7 @@ source $ZSH/oh-my-zsh.sh
 #
 alias gs="git status -s"
 alias gdd="git diff --cached"
-alias gl="glola" # from the git plugin
+alias gl="glol" # from the git plugin
 alias go="git checkout"
 
 export FZF_DEFAULT_COMMAND='fd --type file --follow --hidden --exclude .git'
