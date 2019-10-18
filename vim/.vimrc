@@ -86,10 +86,20 @@ Plug 'airblade/vim-gitgutter'
 Plug 'vim-airline/vim-airline'
 Plug 'justinmk/vim-sneak'
 
+Plug 'reedes/vim-pencil'
+
+" Make j/k work correctly with soft wrapping on text files
+augroup pencil
+  autocmd!
+  autocmd FileType markdown,mkd call pencil#init()
+  autocmd FileType text         call pencil#init()
+augroup END
+
 " Initialize plugin system
 call plug#end()
 
 let g:airline_theme='one'
 colo one
+
 
 
