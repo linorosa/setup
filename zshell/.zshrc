@@ -113,6 +113,14 @@ ggo() {
   git checkout $(echo "$branch" | awk '{print $1}' | sed "s/.* //")
 }
 
+pdoc() {
+  if (( $# == 0 ))  
+  then echo "Need to pass 2 args: source folder and destination file";
+  else $(pandoc -s -o $2 $(ls $1/*.md))
+  fi
+}
+
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ -f ~/.p10k.zsh ]] && source ~/.p10k.zsh
 
