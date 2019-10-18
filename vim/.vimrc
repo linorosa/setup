@@ -81,6 +81,18 @@ Plug 'junegunn/goyo.vim'
 
 Plug 'liuchengxu/vista.vim'
 
+Plug 'SidOfc/mkdx'
+let g:mkdx#settings     = { 'highlight': { 'enable': 1 },
+                        \ 'enter': { 'shift': 1 },
+                        \ 'links': { 'external': { 'enable': 1 } },
+                        \ 'toc': { 'text': 'Table of Contents', 'update_on_write': 1 },
+                        \ 'fold': { 'enable': 0 } }
+
+Plug 'sheerun/vim-polyglot'
+let g:polyglot_disabled = ['markdown'] " don't load markdown highlighting
+                                       " I'm using mkdx for that
+let g:markdown_fenced_languages = ['javascript', 'json=javascript', 'xml', 'html', 'scala']
+
 
 Plug 'airblade/vim-gitgutter'
 Plug 'vim-airline/vim-airline'
