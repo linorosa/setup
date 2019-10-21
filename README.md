@@ -32,26 +32,6 @@ Install [vim-plug](https://github.com/junegunn/vim-plug).
 
 User the `.vimrc` from this repository.
 
-
-#### Themes
-
-Try these themes:
-
-- [joshdick/onedark.vim](https://github.com/joshdick/onedark.vim)
-- [jonathanfilip/vim-lucius](https://github.com/jonathanfilip/vim-lucius)
-- [rakr/vim-two-firewatch](https://github.com/rakr/vim-two-firewatch)
-- [mhartington/oceanic-next](https://github.com/mhartington/oceanic-next)
-- [morhetz/gruvbox](https://github.com/morhetz/gruvbox)
-- [jacoborus/tender.vim](https://github.com/jacoborus/tender.vim)
-- [arcticicestudio/nord-vim](arcticicestudio/nord-vim)
-- [keith/parsec.vim](https://github.com/keith/parsec.vim)
-- [kristijanhusak/vim-hybrid-material](https://github.com/kristijanhusak/vim-hybrid-material)
-- [chriskempson/base16](https://github.com/chriskempson/base16)
-- [KeitaNakamura/neodark.vim](https://github.com/KeitaNakamura/neodark.vim)
-- [rakr/vim-one](https://github.com/rakr/vim-one)
-- [albertorestifo/github.vim](https://github.com/albertorestifo/github.vim)
-- [andreypopp/vim-colors-plain](https://github.com/andreypopp/vim-colors-plain)
-
 ### Scala
 
 Follow the instructions on the [official documentation](https://docs.scala-lang.org/getting-started/sbt-track/getting-started-with-scala-and-sbt-on-the-command-line.html).
