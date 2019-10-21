@@ -74,36 +74,14 @@ Plug 'kien/ctrlp.vim'
 let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard'] " ignore files in .gitignore
 
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+
 Plug 'junegunn/fzf.vim'
 
-
 Plug 'junegunn/goyo.vim'
-
-Plug 'SidOfc/mkdx'
-let g:mkdx#settings     = { 'highlight': { 'enable': 1 },
-                        \ 'enter': { 'shift': 1 },
-                        \ 'links': { 'external': { 'enable': 1 } },
-                        \ 'toc': { 'text': 'Table of Contents', 'update_on_write': 1 },
-                        \ 'fold': { 'enable': 0 } }
-
-Plug 'sheerun/vim-polyglot'
-let g:polyglot_disabled = ['markdown'] " don't load markdown highlighting
-                                       " I'm using mkdx for that
-let g:markdown_fenced_languages = ['javascript', 'json=javascript', 'xml', 'html', 'scala']
-
 
 Plug 'airblade/vim-gitgutter'
 Plug 'vim-airline/vim-airline'
 Plug 'justinmk/vim-sneak'
-
-Plug 'reedes/vim-pencil'
-
-" Make j/k work correctly with soft wrapping on text files
-augroup pencil
-  autocmd!
-  autocmd FileType markdown,mkd call pencil#init()
-  autocmd FileType text         call pencil#init()
-augroup END
 
 " Initialize plugin system
 call plug#end()
