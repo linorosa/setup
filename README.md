@@ -32,18 +32,6 @@ Install [vim-plug](https://github.com/junegunn/vim-plug).
 
 User the `.vimrc` from this repository.
 
-### Pandoc
-
-I like to write all my documents in markdown in Vim. But not so much reading them after. With pandoc I can generate pdf from markdown files and read them later.
-
-I've created a shell function on .zshrc called "pdoc" that generates a pdf from a folder:
-
-
-```bash
-pdoc ~/Documents ~/result.pdf
-```
-
-Install [pandoc](https://pandoc.org/installing.html)
 
 #### Themes
 
