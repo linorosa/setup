@@ -32,16 +32,6 @@ Install [vim-plug](https://github.com/junegunn/vim-plug).
 
 User the `.vimrc` from this repository.
 
-### Scala
-
-Follow the instructions on the [official documentation](https://docs.scala-lang.org/getting-started/sbt-track/getting-started-with-scala-and-sbt-on-the-command-line.html).
-
-Install `coc.vim` and `metals` following the [official documentation](https://scalameta.org/metals/docs/editors/vim.html). Use the `coc-settings` from this repository:
-
-```bash
-ln -s ~/setup/vim/.coc-settings.json ~/.vim/coc-settings.json
-```
-
 #### Default programs
 
 - Spotify: `sudo snap install spotify`
