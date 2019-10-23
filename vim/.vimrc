@@ -45,6 +45,8 @@ set wrapscan               " Searches wrap around end-of-file.
 set report      =0         " Always report changed lines.
 set synmaxcol   =200       " Only highlight the first 200 columns.
 
+set linebreak              " Don't do line breaks in the middle of a word
+
 """"""""""""""""""""""""""""
 "      File Explorer       "
 """"""""""""""""""""""""""""
