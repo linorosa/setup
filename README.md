@@ -14,8 +14,6 @@ Install [fzf](https://github.com/junegunn/fzf).
 
 Install [fd](https://github.com/sharkdp/fd). There's a setting on `.zshrc` for using this instead of the default `find` on `fzf`. That's becuase `fd` allows ignoring the stuff under `.gitignore`.
 
-Install the [forgit](https://github.com/wfxr/forgit) plugin under `$ZSH/custom/plugins/forgit`.
-
 Use the `.zshrc` from this repository.
 
 ### Git
