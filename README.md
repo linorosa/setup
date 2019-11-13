@@ -12,7 +12,7 @@ Install the [powerlevel10k](https://github.com/romkatv/powerlevel10k) theme. Rem
 
 Install [fzf](https://github.com/junegunn/fzf).
 
-Install [fd](https://github.com/sharkdp/fd). There's a setting on `.zshrc` for using this instead of the default `find` on `fzf`. That's becuase `fd` allows ignoring the stuff under `.gitignore`.
+Install [ripgrep](https://github.com/BurntSushi/ripgrep). There's a setting on `.zshrc` for using this instead of the default `find` on `fzf`.
 
 Use the `.zshrc` from this repository.
 
