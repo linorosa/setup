@@ -13,6 +13,7 @@ filetype plugin indent on  " Load plugins according to detected filetype.
 syntax on                  " Enable syntax highlighting.
 
 set autoindent             " Indent according to previous line.
+set breakindent            " New lines will continue on the same level as the previous line.
 
 set expandtab              " Use spaces instead of tabs.
 set softtabstop =2         " Tab key indents by 2 spaces.
