@@ -123,4 +123,6 @@ ggo() {
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
 
-
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/home/lino/.sdkman"
+[[ -s "/home/lino/.sdkman/bin/sdkman-init.sh" ]] && source "/home/lino/.sdkman/bin/sdkman-init.sh"
