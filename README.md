@@ -30,10 +30,6 @@ Install [vim-plug](https://github.com/junegunn/vim-plug).
 
 User the `.vimrc` from this repository.
 
-#### Default programs
-
-- Spotify: `sudo snap install spotify`
-
 ## Photo management
 
 **TODO: I need to revisit this**
@@ -65,3 +61,10 @@ I have a cron job that rsyncs that folder to my Synology NAS:
 
 The NAS has a Hyper Backup setup into an Amazon Drive. It also synchonizes photos to Google Drive so I have them available on Google Photos.
 Unfortunately there's no uploader client for Linux so those uploads count to my Google Drive quota, which I easily exceed. So I have to pay for it.
+
+### Other
+
+- Spotify: `sudo snap install spotify`
+- [TLDR pages](https://tldr.sh/)
+
+
