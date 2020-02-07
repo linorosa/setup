@@ -4,6 +4,8 @@ Dotfiles and some setup instructions.
 
 Some useful links [here](./links.md)
 
+Use the [Jetbrains Mono font](https://www.jetbrains.com/lp/mono/).
+
 ### ZSH
 
 Install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh).
