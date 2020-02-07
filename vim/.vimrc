@@ -96,7 +96,16 @@ call plug#end()
 let g:airline_theme='one'
 colo one
 
-source ~/.vimrc-scala
+" Function to source only if file exists {
+function! SourceIfExists(file)
+  if filereadable(expand(a:file))
+    exe 'source' a:file
+  endif
+endfunction
+" }
+"
+call SourceIfExists("~/.vimrc-scala")
+
 
 
 
