@@ -1,12 +1,9 @@
-""""""""""""""""""""""""""""
-"         Basic            "
-""""""""""""""""""""""""""""
+" Basics
+" ------
 
 let mapleader = ","
 
-" You want Vim, not vi. When Vim finds a vimrc, 'nocompatible' is set anyway.
-" We set it explicitely to make our position clear!
-set nocompatible
+set nocompatible           " No need to be compatible with vi
 
 set termguicolors
 filetype plugin indent on  " Load plugins according to detected filetype.
@@ -33,7 +30,6 @@ set smartcase              " Search is case-sensitive if there's an uppercase ch
 set incsearch              " Highlight while searching with / or ?.
 set hlsearch               " Keep matches highlighted.
 
-" Clear search
 nnoremap <leader><cr> :noh<cr>
 
 set ttyfast                " Faster redrawing.
@@ -48,37 +44,21 @@ set synmaxcol   =200       " Only highlight the first 200 columns.
 
 set linebreak              " Don't do line breaks in the middle of a word
 
-""""""""""""""""""""""""""""
-"      File Explorer       "
-""""""""""""""""""""""""""""
-
+" File Explorer
 let g:netrw_banner = 0
 let g:netrw_liststyle = 3
 let g:netrw_altv = 1
 
-" set vim to chdir for each file
-" so that when I change files and do :Explorer, I open it on the directory of
-" the current file
-set autochdir
+set autochdir " When changing files and :Explorer, it will open on new file
 
-""""""""""""""""""""""""""""
-"        Plugins           "
-""""""""""""""""""""""""""""
+" Plugins
 
-" Specify a directory for plugins
-" - For Neovim: ~/.local/share/nvim/plugged
-" - Avoid using standard Vim directory names like 'plugin'
 call plug#begin('~/.local/share/nvim/plugged')
 
-" Themes
 Plug 'rakr/vim-one'
-
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
-
 Plug 'junegunn/fzf.vim'
-
 Plug 'junegunn/goyo.vim'
-
 Plug 'airblade/vim-gitgutter'
 Plug 'vim-airline/vim-airline'
 Plug 'justinmk/vim-sneak'
