@@ -68,7 +68,7 @@ set autochdir
 " Specify a directory for plugins
 " - For Neovim: ~/.local/share/nvim/plugged
 " - Avoid using standard Vim directory names like 'plugin'
-call plug#begin('~/.vim/plugged')
+call plug#begin('~/.local/share/nvim/plugged')
 
 " Themes
 Plug 'rakr/vim-one'
@@ -93,19 +93,6 @@ au BufRead,BufNewFile *.sbt set filetype=scala
 " Initialize plugin system
 call plug#end()
 
+set background=dark
 let g:airline_theme='one'
 colo one
-
-" Function to source only if file exists {
-function! SourceIfExists(file)
-  if filereadable(expand(a:file))
-    exe 'source' a:file
-  endif
-endfunction
-" }
-"
-call SourceIfExists("~/.vimrc-scala")
-
-
-
-
